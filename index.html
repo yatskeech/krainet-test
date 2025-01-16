@@ -6,7 +6,7 @@
   <meta http-equiv='X-UA-Compatible' content='ie=edge'>
   <link rel='preconnect' href='https://fonts.googleapis.com'>
   <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-  <link href='https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap' rel='stylesheet'>
   <link rel='stylesheet' href='./assets/css/normalize.css'>
   <link rel='stylesheet' href='./assets/css/style.css'>
   <title>Тестовое задание React trainee Krainet</title>
@@ -17,7 +17,7 @@
     <div class='container'>
       <div class='promo__wrapper'>
         <div class='promo__inner-box'>
-          <span class='promo__box-about'>Меня зовут Александра Смит</span>
+          <h3 class='subtitle subtitle_left'>Меня зовут Александра Смит</h3>
           <h1 class='promo__box-title'>Я web-разработчик из города Москва</h1>
           <div class='promo__box-links'>
             <a href='#' class='promo__box-link promo__box-link_accent'>Портфолио</a>
@@ -49,6 +49,73 @@
           </a>
         </li>
       </ul>
+    </div>
+  </section>
+  <section class='experience main__experience'>
+    <div class='container'>
+      <div class='experience__inner-box'>
+        <div class='experience__header'>
+          <h3 class='subtitle subtitle_center'>Опыт</h3>
+          <h2 class='title'>Чем я буду полезна</h2>
+        </div>
+        <div class='divider experience__divider'></div>
+        <div class='experience__content'>
+          <div class='experience__content-group'>
+            <h3 class='experience__group-title'>Образование</h3>
+            <div class='experience__group-item'>
+              <div class='experience__item-header'>
+                <div class='experience__header-icon'>
+                  <img src='./assets/images/icons/university.svg' alt=''>
+                </div>
+                <div class='experience__header-text'>
+                  <h4 class='experience__item-title'>МГТУ им. Н. Э. Баумана</h4>
+                  <span class='experience__item-subtitle'>Диплом магистра | Москва (2014-2020)</span>
+                </div>
+              </div>
+              <p class='experience__item-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+            </div>
+            <div class='experience__group-item'>
+              <div class='experience__item-header'>
+                <div class='experience__header-icon'>
+                  <img src='./assets/images/icons/courses.svg' alt=''>
+                </div>
+                <div class='experience__header-text'>
+                  <h4 class='experience__item-title'>Udemy</h4>
+                  <span class='experience__item-subtitle'>Курсы по Web-разработке</span>
+                </div>
+              </div>
+              <p class='experience__item-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+            </div>
+          </div>
+          <div class='experience__content-group'>
+            <h3 class='experience__group-title'>Опыт работы</h3>
+            <div class='experience__group-item'>
+              <div class='experience__item-header'>
+                <div class='experience__header-icon'>
+                  <img src='./assets/images/icons/developer.svg' alt=''>
+                </div>
+                <div class='experience__header-text'>
+                  <h4 class='experience__item-title'>Front-End Developer</h4>
+                  <span class='experience__item-subtitle'>EPAM | Москва (2018-2019)</span>
+                </div>
+              </div>
+              <p class='experience__item-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+            </div>
+            <div class='experience__group-item'>
+              <div class='experience__item-header'>
+                <div class='experience__header-icon'>
+                  <img src='./assets/images/icons/designer.svg' alt=''>
+                </div>
+                <div class='experience__header-text'>
+                  <h4 class='experience__item-title'>UI/UX Designer</h4>
+                  <span class='experience__item-subtitle'>Squad Team | Москва (2018)</span>
+                </div>
+              </div>
+              <p class='experience__item-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </main>
