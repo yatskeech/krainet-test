@@ -9,6 +9,7 @@
   <link rel='stylesheet' href='./assets/css/normalize.css'>
   <link rel='stylesheet' href='./assets/css/style.css'>
   <script type='module' src='./assets/js/burger.js'></script>
+  <script type='module' src='./assets/js/form.js'></script>
   <title>Тестовое задание React trainee Krainet</title>
 </head>
 <body>
@@ -193,22 +194,26 @@
               </ul>
               <span class='contacts__info-text'>Или оставьте ваши данные и я сама вам напишу:</span>
             </div>
-            <form class='contacts__form'>
+            <form class='contacts__form' novalidate>
               <div class='contacts__form-row'>
                 <div class='input contacts__form-input'>
                   <label for='name'>Ваше имя</label>
                   <input type='text' name='name' id='name'>
+                  <span class='contacts__form-error'></span>
                 </div>
                 <div class='input contacts__form-input'>
                   <label for='email'>Ваша почта</label>
-                  <input type='text' name='name' id='email'>
+                  <input type='email' name='email' id='email'>
+                  <span class='contacts__form-error'></span>
                 </div>
               </div>
               <div class='textarea contacts__form-textarea'>
                 <label for='message'>Ваше сообщение</label>
                 <textarea name='message' id='message'></textarea>
+                <span class='contacts__form-error'></span>
               </div>
               <button type='submit' class='button button_accent contacts__form-btn'>Отправить сообщение</button>
+              <span class='contacts__form-notification'></span>
             </form>
           </div>
         </div>

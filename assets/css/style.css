@@ -471,6 +471,8 @@ body {
 
 .input, .textarea {
   display: flex;
+  flex-direction: column;
+  gap: 4px;
   position: relative;
 }
 
@@ -489,7 +491,6 @@ body {
 
 .input input,
 .textarea textarea {
-  width: 100%;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.5;
@@ -538,6 +539,21 @@ body {
 
 .contacts__form-btn {
   align-self: start;
+}
+
+.contacts__form-error {
+  display: none;
+  font-size: 12px;
+  color: #e60000;
+}
+
+.contacts__form-error.contacts__form-error_active {
+  display: block;
+}
+
+.contacts__form-notification {
+  font-size: 12px;
+  text-align: center;
 }
 
 @media (max-width: 1400px) {
